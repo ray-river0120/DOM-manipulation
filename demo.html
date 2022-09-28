@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-  </head>
 
-  <body>
-    <style> 
-      #container{
-        width: 300px;
-        height: 300px;
-        background-color: coral;
-        text-align: center
-      }
-      </style>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <style>
+    #container {
+      width: 300px;
+      height: 300px;
+      background-color: coral;
+      text-align: center
+    }
+  </style>
 
 
-    <h2>Exercise 1 </h2>
-    <p>write a function to manipulate dom and change the background color of your browser to your favorite color</p>
+  <h2>Exercise 1 </h2>
+  <p>write a function to manipulate dom and change the background color of your browser to your favorite color</p>
 
-    <p><button onclick="changeBackgroundColor()">Click Me</button></p>
-    <div id="container">
-      <p>my color</p> 
-    </div>
+  <p><button onclick="changeBackgroundColor()">Click Me</button></p>
+  <div id="container">
+    <p>my color</p>
+  </div>
 
-    <h2>Exercise 2</h2>
-    <p> write a function to validate user input in the form below if the input is a number and greater than 1 and less than 10 display the message "valid input" if not then display "invalid input</p>
+  <h2>Exercise 2</h2>
+  <p> write a function to validate user input in the form below if the input is a number and greater than 1 and less
+    than 10 display the message "valid input" if not then display "invalid input</p>
 
-    <p>Please input a number between 1 and 10:</p>
-    <input id="numb">
-    <button type="button" onclick="validate()">Submit</button>
-    <p id="demo"></p>
+  <p>Please input a number between 1 and 10:</p>
+  <input id="numb">
+  <button type="button" onclick="validate()">Submit</button>
+  <p id="demo"></p>
 
-    <h2>Exercise 3</h2>
-    <p>add a script to activate this button to display the current date and time
-      in a pop-up (hint: google alert).</p>
+  <h2>Exercise 3</h2>
+  <p>add a script to activate this button to display the current date and time
+    in a pop-up (hint: google alert).</p>
 
-    <button id="myBtn">Display Date & Time</button>
+  <button id="myBtn" onclick="checkDateTime()">Display Date & Time</button>
 
-    <script src="./script.js"></script>
-  </body>
+  <script src="./script.js"></script>
+</body>
+
 </html>
