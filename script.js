@@ -1,17 +1,11 @@
 // Do your magic here!
-let colors = ["blue", "yellow", "dark", "red", "brown", "orang"];
-//get button
-let button = document.getElementById("button");
-//add event listener
-button.addEventListener("click", function () {
+let colors = ["blue", "yellow", "dark", "red", "brown", "orange"];
+function changeBackgroundColor() {
     //randomizer
-
     let randomColors = colors[Math.floor(Math.random() * colors.length)];
     //get container
-    let container = document.getElementById("container");
-
-    container.style.background = randomColors;
-});
+    document.getElementById("container").style.backgroundColor = randomColors;
+};
 
 
 
